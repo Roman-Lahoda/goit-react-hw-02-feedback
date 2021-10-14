@@ -1,9 +1,12 @@
-import s from "./Notification.module.css"
+import s from "./Notification.module.css";
+import PropTypes from "prop-types";
 
 function Notification({ text }) {
-    return (
-        <p>{text}</p>
-    )
+  return <p className={s.text}>{text}</p>;
 }
 
-export default Notification
+Notification.propTypes = {
+  text: PropTypes.string,
+};
+
+export default Notification;
