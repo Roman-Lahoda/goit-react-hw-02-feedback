@@ -1,3 +1,26 @@
+.stat {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.good {
+  /* color: rgb(67, 231, 67); */
+}
+
+.neutral {
+  /* color: rgb(211, 155, 52); */
+}
+
 .bad {
   margin-bottom: 40px;
+}
+
+.total {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.positive {
+  font-weight: 700;
+  font-size: 22px;
 }
